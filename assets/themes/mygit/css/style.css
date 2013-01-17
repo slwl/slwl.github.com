@@ -301,7 +301,7 @@ a:hover {
   position:relative;overflow:hidden;
 }
 .posts li a {
-  margin-left:20px;
+  margin-left:10px;
 }
 .posts li span{
   position:absolute;right:5px;top:0;
