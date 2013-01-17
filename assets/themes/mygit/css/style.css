@@ -812,7 +812,7 @@ h4 small {
 }
 
 .page-header {
-  margin-left:10px;
+  float:right;
   margin-bottom: 20px;
 }
 
@@ -6066,4 +6066,4 @@ a.badge:hover {
 
 
 
-.tag{float:right;padding:5px 8px;height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
+.tag{position:absolute; right:0; padding:5px 8px;height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
