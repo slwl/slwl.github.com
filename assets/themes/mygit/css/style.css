@@ -812,7 +812,7 @@ h4 small {
 }
 
 .page-header {
-  margin-left:10px;
+  float:right;
   margin-bottom: 20px;
 }
 
