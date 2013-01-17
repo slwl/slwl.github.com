@@ -12,10 +12,12 @@ tagline: Supporting tagline
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
     {% unless post.tags == empty %}
     
-    <div class="tag">
+    <div class="tab">
+		<ul class="clearfix">
     {% assign tags_list = post.tags %}
-    {% include JB/tags_list %}
-    </div>
+    
+    </ul>
+	</div>
   {% endunless %}  
   {% endfor %}
 </ul>
