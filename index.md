@@ -16,7 +16,7 @@ tagline: Supporting tagline
 </li>
 <hr>
 {% endfor %}
-<a href="{{ BASE_PATH }}/archive.html" title="More">更多文章</a>
+<a class="moreposts" href="{{ BASE_PATH }}/archive.html" title="More">更多文章</a>
 </ul>
 
 
