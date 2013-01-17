@@ -6068,5 +6068,5 @@ a.badge:hover {
 
 .tag{position:absolute; right:0; height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
 .moreposts{
-  float:right;
+  margin:0 auto;
 }
