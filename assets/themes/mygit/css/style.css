@@ -299,7 +299,12 @@ a:hover {
 .posts li {
   height:50px;
 }
+.posts li a {
 
+}
+.posts li span{
+  float:right;
+}
 
 .span12 {
   width: 960px;
