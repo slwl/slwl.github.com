@@ -6049,6 +6049,6 @@ a.badge:hover {
 
 
 
-.tag{position:absolute;right:0;top:30px}.post .tag a, .post .tag a:visited{display:inline-block;font-size:10px;color:#FFF;padding:0
+.tag{position:absolute;right:0;top:30px} .tag a,  .tag a:visited{display:inline-block;font-size:10px;color:#FFF;padding:0
 5px;height:17px;line-height:17px;font-family:arial;float:left;margin:2px
-0 0 1px}.post .tag a:hover{background:#565656;color:#fff;height:19px;line-height:19px;margin-top:0;text-decoration:none}.post .tag-1{background:#FF7094}.post .tag-2{background:#94B770}.post .tag-3{background:#DB94FF}.post .tag-4{background:#399}.post .tag-5{background:#F60}
+0 0 1px} .tag a:hover{background:#565656;color:#fff;height:19px;line-height:19px;margin-top:0;text-decoration:none} .tag-1{background:#FF7094} .tag-2{background:#94B770} .tag-3{background:#DB94FF} .tag-4{background:#399} .tag-5{background:#F60}
