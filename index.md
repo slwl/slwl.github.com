@@ -14,9 +14,9 @@ tagline: Supporting tagline
     
     <div class="tab">
 		<ul class="clearfix">
-    {% assign tags_list = post.tags %}
-    {% include JB/tags_list %}
-    </ul>
+		    {% assign tags_list = post.tags %}
+		    {% include JB/tags_list %}
+	    </ul>
 	</div>
   {% endunless %}  
   {% endfor %}
