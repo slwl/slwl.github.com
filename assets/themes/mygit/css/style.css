@@ -294,7 +294,7 @@ a:hover {
   margin: 30px 0;
 }
 .posts{  
-  background:#fff; border:1px solid #D2D6DC; box-shadow:0 1px 3px rgba(0, 0, 0, 0.06); padding:24px; word-wrap:break-word; word-break:normal; overflow:hidden;
+  background:#fff; border:1px solid #D2D6DC; box-shadow:0 1px 3px rgba(0, 0, 0, 0.06); padding:24px; 
 }
 ul.posts{
   list-style-type: none;
