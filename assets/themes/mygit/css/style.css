@@ -296,9 +296,6 @@ a:hover {
 .posts{  
   background:#fff; 
 }
-ul.posts{
-  list-style-type: none;
-}
 
 .container,
 .navbar-static-top .container,
