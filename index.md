@@ -14,6 +14,7 @@ tagline: Supporting tagline
 </div>	
 {% endunless %}  
 </li>
+<hr>
 {% endfor %}
 </ul>
 
