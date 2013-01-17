@@ -1332,7 +1332,7 @@ textarea,
 }
 
 .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 20px;
+  
 }
 
 input.span12,
