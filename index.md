@@ -2,12 +2,13 @@
 layout: page
 ---
 {% include JB/setup %}
-<ul class="posts">
-  {% for post in site.posts %}
-    <h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
-    <li><span>{{ post.date | date_to_string }}</span> </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div class="span4">
+    <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date | date_to_string }}</p>
+</div><!--/span-->
+{% endfor %}
+
 
 
 
