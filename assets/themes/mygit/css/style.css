@@ -6046,3 +6046,9 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+
+
+.tab{border-bottom:5px solid #3975CE;zoom:1;margin-bottom:11px}.tab
+li{float:left;font-weight:bold;margin-right:10px;text-align:center}.tab li a, .tab li a:visited{background:#CCC;display:inline-block;color:#fff;padding:0
+12px;height:25px;line-height:25px;text-shadow:1px 1px 0 #999}.tab li a:hover{color:#FFF;background:#565656;text-decoration:none;text-shadow:none}
