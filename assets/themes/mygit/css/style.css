@@ -48,6 +48,7 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+  color:#777777;
 }
 
 sub,
