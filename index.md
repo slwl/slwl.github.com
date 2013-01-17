@@ -11,7 +11,7 @@ tagline: Supporting tagline
 <div class="tag">
 {% assign tags_list = post.tags %}
 {% include JB/tags_list %}
-</div>	
+</div><div class="clearfix"></div>	
 {% endunless %}  
 </li>
 <hr>
