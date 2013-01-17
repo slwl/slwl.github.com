@@ -6051,6 +6051,6 @@ a.badge:hover {
 
 
 
-.tab{position:absolute;right:0;top:30px;padding:5px 8px;} .tab a, .tab a:visited{display:inline-block;font-size:10px;color:#FFF;padding:0
+.tab{padding:5px 8px;} .tab a, .tab a:visited{display:inline-block;font-size:10px;color:#FFF;padding:0
 5px;height:17px;line-height:17px;font-family:arial;float:left;margin:2px
 0 0 1px}.tab a:hover{background:#565656;color:#fff;height:19px;line-height:19px;margin-top:0;text-decoration:none}
