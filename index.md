@@ -13,7 +13,7 @@ tagline: Supporting tagline
     {% unless post.tags == empty %}
     
     <div class="tab">
-		<ul>
+		<ul class="clearfix">
 		    {% assign tags_list = post.tags %}
 		    {% include JB/tags_list %}
 	    </ul>
