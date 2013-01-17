@@ -297,14 +297,14 @@ a:hover {
   background:#fff; border:1px solid #D2D6DC; box-shadow:0 1px 3px rgba(0, 0, 0, 0.06); padding:20px; word-wrap:break-word; word-break:normal; overflow:hidden;
 }
 .posts li {
-  height:50px;
+  height:55px;
   position:relative;overflow:hidden;
 }
 .posts li a {
 
 }
 .posts li span{
-  position:absolute;right:0;top:0;
+  position:absolute;right:5px;top:0;
 }
 
 .span12 {
