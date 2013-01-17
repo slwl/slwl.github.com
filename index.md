@@ -8,17 +8,17 @@ tagline: Supporting tagline
 
 
 <ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-    {% unless post.tags == empty %}    
-    <div class="tab">
-		<ul class="clearfix">
-		{% assign tags_list = post.tags %}
-		{% include JB/tags_list %}
-	    </ul>
-	</div>	
-  {% endunless %}  
-  {% endfor %}
+{% for post in site.posts %}
+<li><img src="http://cdnideacss.sinaapp.com/usr/uploads/2012/09/2844327323.png" class="img-circle"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+{% unless post.tags == empty %}    
+<div class="tab">
+<ul class="clearfix">
+{% assign tags_list = post.tags %}
+{% include JB/tags_list %}
+</ul>
+</div>	
+{% endunless %}  
+{% endfor %}
 </ul>
 
 
