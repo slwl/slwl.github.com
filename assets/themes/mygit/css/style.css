@@ -6051,4 +6051,4 @@ a.badge:hover {
 
 
 
-.tab{padding:5px 8px;height:19px;line-height:19px;} .tab a, .tab a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tab a:hover{background:#333;color:#fff;}
+.tag{float:right;padding:5px 8px;height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
