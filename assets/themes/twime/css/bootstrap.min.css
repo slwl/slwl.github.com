@@ -715,6 +715,6 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .posts{height:40px;}
 .post-author{float: left;width:49%;}
 .post-entry{float: right;width:49%;}
-.tag{display: block;height:19px;line-height:19px;}
-.tag a .tag a:visited{background-color:#468847;}
+.tag{display: block;height:19px;line-height:19px;padding:4px;}
+.tag a, .tag a:visited{background-color:#468847;}
 .tag a:hover{background-color:#f89406;}
