@@ -6069,7 +6069,7 @@ a.badge:hover {
 }
 
 
-.tag_box{position:absolute; right:0; height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
+.tag_box{height:19px;line-height:19px;} .tag_box a, .tag_box a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag_box a:hover{background:#333;color:#fff;}
 
 .tag{position:absolute; right:0; height:19px;line-height:19px;} .tag a, .tag a:visited{display:inline-block;font-size:10px;background:#777;color:#FFF;padding:0 5px;}.tag a:hover{background:#333;color:#fff;}
 .moreposts{
