@@ -4,9 +4,10 @@ title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-<ul class="posts">
+<ul>
 {% for post in site.posts %}
 <li>
+<div class="posts">
 <div class="post-author">
 <img class="img-circle" src="https://secure.gravatar.com/avatar/3b00ffdc531cc40c9f6dad3ab104b208?s=32&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-32.png" /> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 </div>
@@ -19,6 +20,7 @@ tagline: Supporting tagline
 {% include JB/tags_list %}
 </span>	
 {% endunless %}  
+</div>
 </div>
 </li>
 <hr>
