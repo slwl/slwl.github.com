@@ -9,9 +9,9 @@ group: navigation
 
 
 {% for tag in site.tags %} 
- 
+ <div class="tag_box">{{ tag[0] }}</div>
   <ul>
-  	 <div class="tag_box">{{ tag[0] }}</div>
+  	 
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
   </ul>
