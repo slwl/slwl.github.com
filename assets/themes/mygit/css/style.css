@@ -1078,6 +1078,10 @@ label {
   display: block;
   margin-bottom: 5px;
 }
+a.label:hover {
+    color: #fff;
+    background-color: #F95B1F;
+}
 
 select,
 textarea,
