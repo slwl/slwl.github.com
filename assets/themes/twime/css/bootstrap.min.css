@@ -715,6 +715,6 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .posts{height:40px;}
 .post-author{float: left;width:49%;}
 .post-entry{float: right;width:49%;}
-.tag{display:inline-block;padding:2px 4px;font-size:11.844px;font-weight:bold;line-height:14px;color:#ffffff;vertical-align:baseline;white-space:nowrap;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#999999;}
-.tag a, .tag a:visited{background-color:#468847;}
+.tag{}
+.tag a, .tag a:visited{display:inline-block;padding:2px 4px;font-size:11.844px;font-weight:bold;line-height:14px;color:#ffffff;vertical-align:baseline;white-space:nowrap;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#468847;}
 .tag a:hover{background-color:#f89406;}
