@@ -48,6 +48,7 @@ a:hover{color:#005580;text-decoration:underline;}
 .img-circle{-webkit-border-radius:500px;-moz-border-radius:500px;border-radius:500px;}
 .row{margin-left:-20px;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
 .row:after{clear:both;}
+.pull-left{float:left;}
 .pull-right{float:right;}
 .container{width:700px;margin-right:auto;margin-left:auto;*zoom:1;}.container:before,.container:after{display:table;content:"";line-height:0;}
 .container:after{clear:both;}
@@ -709,3 +710,4 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .visible-tablet{display:none !important;}
 .hidden-desktop{display:none !important;}
 .visible-desktop{display:inherit !important;}
+
