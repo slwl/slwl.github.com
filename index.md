@@ -4,7 +4,7 @@ title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-<ul>
+<ul class="posts">
 {% for post in site.posts %}
 <li>
 <div class="post-author">
