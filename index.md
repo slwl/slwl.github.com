@@ -9,7 +9,7 @@ tagline: Supporting tagline
 <li>
 <div class="posts">
 <div class="post-author">
-<img class="img-circle" src="https://secure.gravatar.com/avatar/3b00ffdc531cc40c9f6dad3ab104b208?s=40&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-40.png" /> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+<img class="img-circle" src="https://secure.gravatar.com/avatar/3b00ffdc531cc40c9f6dad3ab104b208?s=32&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-32.png" /> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 </div>
 <div class="post-entry">
 <span class="date pull-right">{{ post.date | date:"%Y-%m-%d" }}</span>
