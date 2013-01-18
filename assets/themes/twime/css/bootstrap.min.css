@@ -713,7 +713,7 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .visible-desktop{display:inherit !important;}
 
 
-.posts{height:40px;}
+.posts{height:30px;}
 .post-author{float: left;width:49%;}
 .post-entry{float: right;width:49%;margin-top:-8px;}
 .tag{}
