@@ -27,7 +27,7 @@ Usage:
     {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
   
     {% if forloop.first %}
-      <div class="alert alert-success">{{this_year}} ---> {{this_month}}</div>
+      <div class="alert alert-success">{{next_year}}年 {{next_month}}月</div>
       <ul class="taglist">
     {% endif %}
   
@@ -38,7 +38,7 @@ Usage:
     {% else %}
       {% if this_year != next_year %}
         </ul>
-        <div class="alert alert-success">{{next_year}}年{{next_month}}月</div>
+        <div class="alert alert-success">{{next_year}}年 {{next_month}}月</div>
         <ul class="taglist">
       {% else %}    
         {% if this_month != next_month %}
