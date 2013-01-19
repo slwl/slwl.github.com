@@ -9,6 +9,7 @@ tagline: Tags
 {% for tag in site.tags %} 
 <div class="alert alert-success">{{ tag[0] }}</div>  
 	<ul class="taglist">	 
-	    
+	    {% assign pages_list = tag[1] %}  
+	   
  	</ul>  
 {% endfor %}
