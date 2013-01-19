@@ -5,14 +5,9 @@ header: Posts By Category
 group: navigation
 ---
 {% include JB/setup %}
-<div class="posts">
-
-
-
 {% for category in site.categories %} 
-<div class="tag_box">{{ category[0] | join: "/" }}</div>
-  
-  <ul>
+<div class="alert alert-success">{{ category[0] | join: "/" }}</div>  
+  <ul class="taglist">
     {% assign pages_list = category[1] %}  
     {% include JB/pages_list %}
   </ul>
