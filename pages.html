@@ -5,11 +5,8 @@ header: Pages
 group: navigation
 ---
 {% include JB/setup %}
-<div class="posts">
-<div class="tag_box">All Pages</div>
-<ul>
-	 
+<div class="alert alert-success">All Pages</div>
+<ul class="taglist">	 
 {% assign pages_list = site.pages %}
 {% include JB/pages_list %}
 </ul>
-</div>
