@@ -38,12 +38,12 @@ Usage:
     {% else %}
       {% if this_year != next_year %}
         </ul>
-        <div class="alert alert-success">{{next_year}}--->{{next_month}}</div>
+        <div class="alert alert-success">{{next_year}}年{{next_month}}月</div>
         <ul class="taglist">
       {% else %}    
         {% if this_month != next_month %}
           </ul>
-          <div class="alert alert-success">{{next_month}}</div>
+          <div class="alert alert-success">{{next_month}}月</div>
           <ul class="taglist">
         {% endif %}
       {% endif %}
