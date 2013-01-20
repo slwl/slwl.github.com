@@ -91,7 +91,7 @@ li{line-height:20px;}
 .content{background:#fff; border: 1px solid #d4d4d4;  -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);  *zoom: 1; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);padding:20px; word-wrap:break-word; word-break:normal; overflow:hidden;}
 .pull-left{float:left;}
 .pull-right{float:right;}
-.alert{text-align: center;padding:8px 0;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);background-color:#fcf8e3;border:1px solid #fbeed5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.alert{text-align: center;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);background-color:#fcf8e3;border:1px solid #fbeed5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
 .alert-success{background-color:#dff0d8;border-color:#d6e9c6;color:#468847;}
 .page-header{padding-bottom:9px;margin:0 0 20px;border-bottom:1px solid #eeeeee;}
 hr{margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #ffffff;}
