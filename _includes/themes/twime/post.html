@@ -4,12 +4,12 @@
 
 
     {{ content }}
-    <span class='tag pull-right'>
+    <div class='tag pull-right'>
     {% unless page.tags == empty %}
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     {% endunless %}  
-    </span>
+    </div>
     <hr>
     <div class="pagination">
       <ul>
