@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 好记性不如记事本 - PT
-tagline:
+tagline:好记性不如记事本
 ---
 {% include JB/setup %}
 <ul>
