@@ -2,7 +2,7 @@
   {{ page.title }} <small><div class="date"><span>{{ page.date | date_to_long_string }}</span></div></small>
 </div>
 
-
+<div class="content">
     {{ content }}
     <div class='tag pull-right'>
     {% unless page.tags == empty %}
@@ -10,6 +10,7 @@
     {% include JB/tags_list %}
     {% endunless %}  
     </div>
+</div>
     <hr>
     <div class="pagination">
       <ul>
