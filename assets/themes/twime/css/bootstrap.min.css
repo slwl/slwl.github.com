@@ -17,7 +17,7 @@ a:hover{color:#468847;text-decoration:none;}
 
 
 
-p{margin:0 0 10px;}
+p{margin:0 0 10px;line-height: 25px;}
 .lead{margin-bottom:20px;font-size:21px;font-weight:200;line-height:30px;}
 small{font-size:85%;}
 strong{font-weight:bold;}
@@ -162,7 +162,7 @@ border: 1px solid #dff0d8;
 blockquote {
     padding: 0 0 0 14px;
     margin: 0 0 30px;
-    border-left: 5px solid #333;
+    border-left: 5px solid #eee;
 }
 blockquote p {
     margin-bottom: 0;
