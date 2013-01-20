@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: 好记性不如记事本 - PT8.ORG
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
