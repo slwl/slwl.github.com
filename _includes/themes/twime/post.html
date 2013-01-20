@@ -1,5 +1,16 @@
+<div class="page-header">
+  {{ page.title }} <small><div class="date"><span>{{ page.date | date_to_long_string }}</span></div></small>
+</div>
+
 
     {{ content }}
+    {% unless page.tags == empty %}
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+    </ul>
+    {% endunless %}  
     <hr>
     <div class="pagination">
       <ul>
