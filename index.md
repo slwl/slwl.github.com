@@ -9,7 +9,7 @@ tagline: Supporting tagline
 <li>
 <div class="posts">
 <div class="post-author">
-<img class="img-circle" src="{{ ASSET_PATH }}/images/gravatar.jpeg" /> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+<img class="img-circle" src="{{ ASSET_PATH }}twime/images/gravatar.jpeg" /> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 </div>
 <div class="post-entry">
 <span class="date pull-right">{{ post.date | date:"%Y-%m-%d" }}</span>
