@@ -122,7 +122,7 @@ hr{margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #
 }
 .pagination ul > li > a,
 .pagination ul > li > span {
-  float: left;
+  
   padding: 4px 12px;
   line-height: 20px;
   text-decoration: none;
