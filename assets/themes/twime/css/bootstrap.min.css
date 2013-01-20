@@ -133,13 +133,13 @@ background-color:#f89406;color:#fff;
     float: left;
 }
 .pagination ul > li:first-child > a{
-border: 1px solid #ddd;
+border: 1px solid #dff0d8;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
 }
 .pagination ul > li:last-child > a{
-border: 1px solid #ddd;
+border: 1px solid #dff0d8;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
