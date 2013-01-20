@@ -117,8 +117,8 @@ hr{margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #
     display: inline;
 }
 .pagination a {
-  padding: 4px 12px;
-  line-height: 20px;
+  padding: 2px 5px;
+
   text-decoration: none;
   background-color:#dff0d8;color:#468847;
 
