@@ -116,17 +116,15 @@ hr{margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #
     display: inline;
 }
 .pagination a {
-    display: inline-block;
-    padding: 5px 14px;
-    background-color: #f8f8f6;
-    border: 1px solid #ddd;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
 }
 .pagination a:hover {
-    text-decoration: none;
-    background-color: #f5f5f5;
+background-color: #f5f5f5;
 }
 .pagination .next a {
     float: right;
