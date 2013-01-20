@@ -167,5 +167,5 @@ hr{margin:20px 0;border:0;border-top:1px solid #eeeeee;border-bottom:1px solid #
   border-bottom-right-radius: 4px;
 }
 
-.pagination .prev{float:left;}
-.pagination .next{float:right;}
+.pagination ul li .prev{float:left;}
+.pagination ul li .next{float:right;}
