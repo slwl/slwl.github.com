@@ -4,13 +4,13 @@
 
 
     {{ content }}
-    <span class='tag pull-right clearfix'>
+    <span class='tag pull-right'>
     {% unless page.tags == empty %}
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
     {% endunless %}  
     </span>
-    <hr>
+ 
     <div class="pagination">
       <ul>
       {% if page.previous %}
