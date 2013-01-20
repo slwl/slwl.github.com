@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 好记性不如记事本 - PT8.ORG
-tagline: Supporting tagline
+title: 好记性不如记事本 - PT
+tagline: DO WHATEVER YOU WANT !
 ---
 {% include JB/setup %}
 <ul>
