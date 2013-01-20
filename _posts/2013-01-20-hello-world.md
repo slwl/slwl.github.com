@@ -3,11 +3,11 @@ layout: post
 title: "Hello World"
 description: ""
 category: Life
-tags: [Jekyll] [Bootstrap]
+tags: [Jekyll, Bootstrap, PT8.ORG]
 ---
 {% include JB/setup %}
 
-####PT.ORG又一次上线了！
+####PT8.ORG又一次上线了！
 
 PT8.ORG这域名应该是陪伴我最久的一个域名了，从独立博客到轻博客，到目前的Github托管的Jekyll博客。
 很久没有这么有折腾劲了，看上了托管的省心和GIT的版本管理功能。
