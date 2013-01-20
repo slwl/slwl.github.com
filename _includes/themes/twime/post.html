@@ -15,15 +15,15 @@
     <div class="pagination">
       <ul>
       {% if page.previous %}
-        <small><li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li></small>
+        <li class="prev"><small><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></small></li>
       {% else %}
-        <small><li class="prev disabled"><a>&larr; Previous</a></li></small>
+        <li class="prev disabled"><small><a>&larr; Previous</a></li></small>
       {% endif %}
         
       {% if page.next %}
-        <small><li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li></small>
+       <li class="next"> <small><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></small></li>
       {% else %}
-        <small><li class="next disabled"><a>Next &rarr;</a></small>
+        <li class="next disabled"><small><a>Next &rarr;</a></small></li>
       {% endif %}
       </ul>
     </div>
